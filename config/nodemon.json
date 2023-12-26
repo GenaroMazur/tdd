@@ -1,0 +1,19 @@
+{
+    "verbose": false,
+    "restartable": "rs",
+    "watch": [
+        "src/**/*.ts",
+        "package.json",
+        "tsconfig.json",
+        "config/**/*"
+    ],
+    "ext": "ts,env",
+    "ignore": [
+        "**/test/**",
+        "**/docs/**",
+        "**/temp/**",
+        "*test.ts"
+    ],
+    "delay": 1500,
+    "exec": "ts-node src/app/index.ts"
+}
